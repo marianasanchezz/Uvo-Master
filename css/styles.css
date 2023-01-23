@@ -1,0 +1,50 @@
+#title {
+    background-color: #05DFD7;
+    padding: 5px 0px 10px 0px;
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+nav {
+    margin-bottom: 3rem;;
+}
+
+button {
+    margin: 30px 10px 10px 0px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.nav-item {
+    padding-left: 50px;
+}
+
+.nav-link {
+    size: 1.1rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu Condensed';
+}
+
+#main-home-img {
+    position: absolute;
+    transform: rotate(9deg);
+    margin-left: 90px;
+    height: 650px;
+}
+
+#name {
+    font-size: 3rem;
+}
