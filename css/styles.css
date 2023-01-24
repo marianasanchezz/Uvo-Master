@@ -18,7 +18,7 @@ nav {
     margin-bottom: 3rem;;
 }
 
-button {
+.btn {
     margin: 30px 10px 10px 0px;
 }
 
@@ -41,10 +41,71 @@ button {
 #main-home-img {
     position: absolute;
     transform: rotate(9deg);
-    margin-left: 90px;
-    height: 650px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    height: 525px;
 }
 
 #name {
     font-size: 3rem;
+}
+
+#features {
+    height: 250px;
+}
+
+.features {
+    text-align: center;
+}
+
+.feature-box h3 {
+    padding: 15px 0 0 0;
+}
+
+.feature-list {
+    text-align: center;
+}
+
+.home-icon {
+    color: #F35588;
+}
+
+.home-icon:hover {
+    color: #ee7299;
+}
+
+.f1 {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 390px) {
+
+        #main-home-img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            padding-bottom: 20px;
+        }
+
+        .btn {
+            width: 45%;
+            font-size: 50%;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        #features {
+            margin: 50px 0;
+        }
+
+        .feature-box h3 {
+            font-size: 1rem;
+        }
+
+        .feature-box p {
+            font-size: 0.75rem;
+        }
+    
 }
