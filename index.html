@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu+Condensed&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -63,7 +64,7 @@
         </div>
 
         <div class="col-lg-4">
-          <img id="main-home-img" src="images/iphone.png" alt="iphone-mockup">
+          <img id="main-home-img" src="images/macbook.png" alt="macbook-mockup">
         </div>
       </div>
     </div>
@@ -79,7 +80,7 @@
         <h3>Easy to use.</h3>
         <p>Accessible for all.</p>
       </div>
-      <div class="feature-box col-md-4"c>
+      <div class="feature-box col-md-4" c>
         <i class="home-icon fa-2xl fa-solid fa-heart"></i>
         <h3>Guaranteed to work.</h3>
         <p>Organize employee stats and hours.</p>
@@ -92,84 +93,161 @@
 
   <section id="testimonials">
 
-    <h2>Our company values organizations that hold our same values. As the CEO, Uvo has helped us keep track of our
-      employees' mandatory volunteer hours, reward them with incentives, and give back to our community</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <div id="testimonial-carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Uvo has boosted our productivity and relationships here at Google. We give great company incentives for volunteering and I look forward to connecting with my community.</h2>
+          <img class="testimonial-img" src="images/M-FEJMZ0_400x400.jpg" alt="sundar-profile">
+          <em>Sundar Pichai, California</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I'm the Uvo Admin for Chewy and I love how I can select local animal shelters, rehabilitation centers, and animal hospitals for our employee's volunteer hours.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Massachusetts</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </section>
-
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="testimonial-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="testimonial-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="testimonial-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="testimonial-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
-
 
   <!-- Pricing -->
 
   <section id="pricing">
 
-    <h2>A Plan for Every Company's Needs</h2>
+    <div class="pricing-heading">
+    <h2>A Plan for Every Need</h2>
     <p>Simple and affordable price plans for you and your employees.</p>
     <p>If you don't see a plan that works for you, please contact our team for more options.</p>
+  </div>
 
-
-    <h3>Organization</h3>
-    <h2>$9/mo or $99/yr</h2>
-    <p>4 opportunity listings a month at no cost</p>
-    <p>$2.99 per listing afterwards</p>
-    <p>Unlimited Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Group</h3>
-    <h2>$19/mo or $199/yr</h2>
-    <p>Up to 29 employees</p>
-    <p>Full access</p>
-    <p>Unlimited Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Small Business</h3>
-    <h2>$49/mo or $499/yr</h2>
-    <p>Up to 99 employees</p>
-    <p>Full access</p>
-    <p>Unlimited Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Classic Business</h3>
-    <h2>$109/mo or $1299/yr</h2>
-    <p>Up to 999 employees</p>
-    <p>Full access</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Large Business</h3>
-    <h2>$299/mo or $3499/yr</h2>
-    <p>Up to 1999 employees</p>
-    <p>Full access</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Corporation</h3>
-    <h2>$499/mo or $5899/yr</h2>
-    <p>Unlimited employees</p>
-    <p>Full access</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Organization</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$9<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $99 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>4 free listings per month</li>
+              <li>$2.99 per listing</li>
+              <li>Unlimited usage</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="classic-btn w-100 btn btn-lg" style="color:#F35588; border-color:#F35588">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Group</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$19<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $199 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Up to 29 employees</li>
+              <li>Full access</li>
+              <li>Unlimited usage</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="classic-btn w-100 btn btn-lg" style="color:#F35588; border-color:#F35588">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Classic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $499 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Up to 99 employees</li>
+              <li>Full access</li>
+              <li>Unlimited usage</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="classic-btn w-100 btn btn-lg" style="color:#F35588; border-color:#F35588">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Gold</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$109<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $1299 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Up to 999 employees</li>
+              <li>Full access</li>
+              <li>Unlimited usage</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="classic-btn w-100 btn btn-lg" style="color:#F35588; border-color:#F35588">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm" style="border-color:#F35588">
+          <div class="card-header py-3" style="border-color:#F35588">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$299<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $3499 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Up to 4999 employees</li>
+              <li>Full access</li>
+              <li>Unlimited usage</li>
+              <li>Priority help support</li>
+            </ul>
+            <button type="button" class="premium-btn w-100 btn btn-lg btn-primary" style="background-color:#F35588; border-color:#F35588">Contact us</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm" style="border-color:#F35588">
+          <div class="card-header py-3" style="background-color:#F35588; border-color:#F35588; color: #fff">
+            <h4 class="my-0 fw-normal">Premium Plus</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$499<small class="text-muted fw-light">/mo</small></h1>
+            <p class="text-muted">or $5899 annually*</p>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited employees</li>
+              <li>Full access</li>
+              <li>Unlimited usage</li>
+              <li>Priority help support</li>
+            </ul>
+            <button type="button" class="premium-btn w-100 btn btn-lg btn-primary" style="background-color:#F35588; border-color:#F35588">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 
